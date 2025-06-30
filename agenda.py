@@ -68,25 +68,15 @@ while True:
             total_contatos = total_contatos + 1
             
             if total_contatos == 1:
-                contato1_nome, contato1_sobrenome, contato1_telefone, contato1_celular, contato1_email, contato1_mes, contato1_dia, contato1_ano = (
-                    novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano
-                )
+                contato1_nome, contato1_sobrenome, contato1_telefone, contato1_celular, contato1_email, contato1_mes, contato1_dia, contato1_ano = (novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano)
             elif total_contatos == 2:
-                contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (
-                    novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano
-                )
+                contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano)
             elif total_contatos == 3:
-                contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (
-                    novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano
-                )
+                contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano)
             elif total_contatos == 4:
-                contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (
-                    novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano
-                )
+                contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano)
             elif total_contatos == 5:
-                contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano = (
-                    novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano
-                )
+                contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano = (novo_nome, novo_sobrenome, novo_telefone, novo_celular, novo_email, novo_mes, novo_dia, novo_ano)
             
             print("SUCESSO: O contato " + novo_nome + " " + novo_sobrenome + " foi inserido com sucesso.")
  
@@ -324,48 +314,28 @@ while True:
             else:
                 if contato_id == 1:
                     nome_removido = contato1_nome + " " + contato1_sobrenome
-                    contato1_nome, contato1_sobrenome, contato1_telefone, contato1_celular, contato1_email, contato1_mes, contato1_dia, contato1_ano = (
-                        contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano
-                    )
-                    contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (
-                        contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano
-                    )
-                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (
-                        contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano
-                    )
-                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (
-                        contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano
-                    )
+                    contato1_nome, contato1_sobrenome, contato1_telefone, contato1_celular, contato1_email, contato1_mes, contato1_dia, contato1_ano = (contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano)
+                    contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano)
+                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano)
+                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano)
                     contato5_nome = contato5_sobrenome = contato5_telefone = contato5_celular = contato5_email = contato5_mes = contato5_dia = contato5_ano = ""
                 
                 elif contato_id == 2:
                     nome_removido = contato2_nome + " " + contato2_sobrenome
-                    contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (
-                        contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano
-                    )
-                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (
-                        contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano
-                    )
-                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (
-                        contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano
-                    )
+                    contato2_nome, contato2_sobrenome, contato2_telefone, contato2_celular, contato2_email, contato2_mes, contato2_dia, contato2_ano = (contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano)
+                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano)
+                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano)
                     contato5_nome = contato5_sobrenome = contato5_telefone = contato5_celular = contato5_email = contato5_mes = contato5_dia = contato5_ano = ""
                 
                 elif contato_id == 3:
                     nome_removido = contato3_nome + " " + contato3_sobrenome
-                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (
-                        contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano
-                    )
-                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (
-                        contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano
-                    )
+                    contato3_nome, contato3_sobrenome, contato3_telefone, contato3_celular, contato3_email, contato3_mes, contato3_dia, contato3_ano = (contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano)
+                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano)
                     contato5_nome = contato5_sobrenome = contato5_telefone = contato5_celular = contato5_email = contato5_mes = contato5_dia = contato5_ano = ""
                 
                 elif contato_id == 4:
                     nome_removido = contato4_nome + " " + contato4_sobrenome
-                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (
-                        contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano
-                    )
+                    contato4_nome, contato4_sobrenome, contato4_telefone, contato4_celular, contato4_email, contato4_mes, contato4_dia, contato4_ano = (contato5_nome, contato5_sobrenome, contato5_telefone, contato5_celular, contato5_email, contato5_mes, contato5_dia, contato5_ano)
                     contato5_nome = contato5_sobrenome = contato5_telefone = contato5_celular = contato5_email = contato5_mes = contato5_dia = contato5_ano = ""
                 
                 elif contato_id == 5:
